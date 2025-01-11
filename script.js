@@ -26,10 +26,9 @@ ScrollTrigger.scrollerProxy(".main", {
 
 
 
-// each time the window updates, we should refresh ScrollTrigger and then update LocomotiveScroll. 
+// each time the window upates, we should refresh ScrollTrigger and then update LocomotiveScroll. 
 ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
-// after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
 ScrollTrigger.refresh();
 
 }
@@ -250,9 +249,12 @@ Shery.imageEffect(".page3 .image-div1", {
 
 }
 
+
+
 page1Animation()
 page2Animation()
 locomotive()
 loadinganimation()
 cursor_animation()
 page3Animations()
+
